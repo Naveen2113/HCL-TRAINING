@@ -60,7 +60,7 @@ public class BankAccount {
             );
         }
 
-        balance -= amount; // Intentional bug for debugging
+        balance -= amount; // 
     }
 
     // Getters

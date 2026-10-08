@@ -1,11 +1,19 @@
 package com.hcl.app;
 
+import com.hcl.model.Student;
 import com.hcl.model.BankAccount;
 import com.hcl.service.AccountService;
 
 public class Main {
 
     public static void main(String[] args) {
+
+        Student student = new Student(
+                "Naveen",
+                "Computer Science and Design"
+        );
+
+        student.displayStudent();
 
         BankAccount account =
                 new BankAccount("ACC1001", "Naveen", 5000);
